@@ -2,14 +2,27 @@
     padding: 0;
     margin: 0;
 }
+/* -------------------------------------------------------------- */
+/* Configuracion HTML */
+html{
+    font-size: 62.5%;
+}
+/* -------------------------------------------------------------- */
+/* Fonts. */
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
 @media only screen and (min-width: 1024px){
     h1{
-        text-align: center; 
+        text-align: center;
+        font-size: 40px; 
     }
 
     h5{
         text-align: center;
         text-decoration: underline;
+        font-size: 25px;
     }
 
     footer{
@@ -21,6 +34,12 @@
     .cardsCenter{
         margin: auto;
         width: 50%;
+    }
+
+    .marinBotTop{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(218, 216, 216, 0.61);
     }
 
 }
